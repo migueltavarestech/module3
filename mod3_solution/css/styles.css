@@ -1,9 +1,16 @@
+/* START OF HEADER */
+
 #header-nav {
-    background-color: #f6b319;
+    background-color: #A0D2EB;
     border-radius: 0;
     border: 0; 
     box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.88);
     position: relative;
+}
+
+#header-nav a {
+    color: white;
+    text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.61);
 }
 
 .navbar-header button.navbar-toggle {
@@ -12,6 +19,7 @@
 
 #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
+    color: black;
   }
 #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
@@ -26,4 +34,37 @@
     position: relative;
     float: left;
     width: 100%;
+    background-color: #E5EAF5;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.42);
+    text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.61);
 }
+
+#collapsable-nav li:hover {
+    background-color: #A0D2EB;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.42);
+}
+
+/* END OF HEADER */
+
+/* START OF BODY */
+
+h1 {
+    margin: 30px;
+}
+
+.container {
+    background-color: #e5eaf5;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.42);
+    height: 1000px;
+    width: 85%;
+}
+
+.container h2 {
+    font-size: 18px;
+}
+
+.container p {
+    padding: 10px 20px 10px 20px;
+}
+
+/* END OF BODY */
